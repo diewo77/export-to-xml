@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BSInInventoryReport xmlns="http://Bestseller.BizTalk.Object.InInventoryReport.BSInInventoryReport10.Schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://Bestseller.BizTalk.Object.InInventoryReport.BSInInventoryReport10.Schemas BSInventoryReport_10_XML.xsd">
+	<Header>
+		<DocumentIdentification>BB11223344</DocumentIdentification>
+		<DocumentType>OnStock</DocumentType>
+		<Date>
+			<DocumentDate>2010-05-06</DocumentDate>
+			<InventoryReportDate>2010-05-06</InventoryReportDate>
+		</Date>
+		<Parties>
+			<BuyerParty>
+				<Name>SportNada</Name>
+				<PartyIdentificationDetail>
+					<GlobalLocationNumber>1234567890123</GlobalLocationNumber>
+				</PartyIdentificationDetail>
+			</BuyerParty>
+			<SupplierParty>
+				<Name>Bestseller A/S</Name>
+				<PartyIdentificationDetail>
+					<GlobalLocationNumber>5790000425921</GlobalLocationNumber>
+				</PartyIdentificationDetail>
+			</SupplierParty>
+		</Parties>
+	</Header>
+	<InventoryReportLocations>
+		<InventoryReportLocation>
+			<InventoryReportingParty>
+				<Name>SportNada Ltmd</Name>
+				<PartyIdentificationDetail>
+					<GlobalLocationNumber>3838514999599</GlobalLocationNumber>
+				</PartyIdentificationDetail>
+			</InventoryReportingParty>
+			<InventoryReportLines>
+				<InventoryReportLine>
+					<LineNumber>1</LineNumber>
+					<Item>
+						<ItemGlobalTradeItemNumber>5702804124726</ItemGlobalTradeItemNumber>
+						<ItemDescription>Dress</ItemDescription>
+					</Item>
+					<Quantity>
+						<QuantityStock>5</QuantityStock>
+						<MeasurementUnitCode>PCE</MeasurementUnitCode>
+					</Quantity>
+				</InventoryReportLine>
+				<InventoryReportLine>
+					<LineNumber>2</LineNumber>
+					<Item>
+						<ItemGlobalTradeItemNumber>5702803111529</ItemGlobalTradeItemNumber>
+						<ItemDescription>Skirt</ItemDescription>
+					</Item>
+					<Quantity>
+						<QuantityStock>3</QuantityStock>
+						<MeasurementUnitCode>PCE</MeasurementUnitCode>
+					</Quantity>
+				</InventoryReportLine>
+			</InventoryReportLines>
+		</InventoryReportLocation>
+	</InventoryReportLocations>
+</BSInInventoryReport>
