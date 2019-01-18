@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BSInInventoryReport xmlns="http://Bestseller.BizTalk.Object.InInventoryReport.BSInInventoryReport10.Schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://Bestseller.BizTalk.Object.InInventoryReport.BSInInventoryReport10.Schemas BSInventoryReport_10_XML.xsd">
+<BSInInventoryReport xmlns="http://Bestseller.BizTalk.Object.InInventoryReport.BSInInventoryReport10.Schemas"
+					 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					 xsi:schemaLocation="http://Bestseller.BizTalk.Object.InInventoryReport.BSInInventoryReport10.Schemas BSInventoryReport_10_XML.xsd">
 	<Header>
 		<DocumentIdentification>BB11223344</DocumentIdentification>
 		<DocumentType>OnStock</DocumentType>
